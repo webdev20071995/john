@@ -1,0 +1,75 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+/* FONT-FASIA */
+@font-face {
+  font-family: 'Heebo';
+  src: url('/fonts/Heebo-Bold.woff2') format('woff2'),
+      url('/fonts/Heebo-Bold.woff') format('woff');
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Heebo';
+  src: url('/fonts/Heebo-Regular.woff2') format('woff2'),
+      url('/fonts/Heebo-Regular.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Heebo';
+  src: url('/fonts/Heebo-Medium.woff2') format('woff2'),
+      url('/fonts/Heebo-Medium.woff') format('woff');
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Heebo';
+  src: url('/fonts/Heebo-Black.woff2') format('woff2'),
+      url('/fonts/Heebo-Black.woff') format('woff');
+  font-weight: 900;
+  font-style: normal;
+  font-display: swap;
+}
+
+
+
+.container{
+  font-family: 'heebo', 'Arial', sans-serif;
+  padding-left: 100px;
+  padding-right: 100px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+
+/* SITE-HEADER */
+.site-header {
+  margin-left: 856px;
+  margin-top: 27px;
+  background-color: #fff;
+}
+
+.site-header-list {
+  list-style: none;
+  display: flex;
+}
+
+.site-header-item:not(:last-child) {
+  margin-right: 33px;
+}
+
+.site-header-link {
+  color: #000;
+  text-decoration: none;
+}
